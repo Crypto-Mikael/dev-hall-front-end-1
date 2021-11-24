@@ -1,0 +1,39 @@
+.about-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text {
+  width: 50%;
+  padding: 10vw;
+}
+
+.about-text h1 {
+  font-size: 5vh;
+}
+
+.about-text p {
+  font-size: 2.9vh;
+}
+
+
+.about-field img {
+  width: 25%;
+  height: 25%;
+}
+
+@media only screen and (max-width: 816px){
+  .about-field {
+    flex-direction: column;
+  }
+
+  .about-field img {
+    width: 202.25px;
+    height: 230.72;
+  }
+
+  .about-text {
+    width: 70%;
+  }
+}
